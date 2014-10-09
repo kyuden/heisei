@@ -9,6 +9,7 @@ gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'rails_12factor'
+gem 'era_ja', '~> 0.2.2'
 
 group :development, :test do
   gem 'byebug'
