@@ -1,9 +1,5 @@
 %meta{charset: 'UTF-8'}
 
--# デスクリプションを不用意に変更されないようにする
-%META{CONTENT: 'NOYDIR', NAME: 'ROBOTS'}
-%META{CONTENT: 'NOODP', NAME: 'ROBOTS'}
-
 -# モバイルに対応している場合のみ書く
 %link{media: 'handheld', rel: 'alternate', href: "http://xn--vqq618aea808a.jp/"}
 
@@ -13,5 +9,6 @@
 - set_meta_tags site: '今年は平成何年', title: "#{Time.now.year}は平成何年", reverse: true
 - set_meta_tags description: '平成何年.jpは今年平成何年かを確認できます。'
 - set_meta_tags keywords: %w|平成 平成何年 今年 何年 今年何年|
+- set_meta_tags author: "https://twitter.com/Kyuden_"
 - set_meta_tags viewport: "width=device-width, initial-scale=1k"
 = display_meta_tags
