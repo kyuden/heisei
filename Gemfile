@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'rails_12factor'
 gem 'era_ja', '~> 0.2.2'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'

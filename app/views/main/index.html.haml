@@ -1,2 +1,6 @@
-%p 今年は
-%h1= current_heisei_year
+.site-title.centered
+  %h1 今年は平成何年?
+.post-year= current_heisei_year
+.site-footer
+  = image_tag("kyuden.png", class: "circle", width: "90")
+  %h5= profile.html_safe
