@@ -15,6 +15,7 @@ gem 'bootstrap-sass', '~> 3.1.1'
 
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug'
