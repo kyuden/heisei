@@ -4,6 +4,6 @@ module MainsHelper
   end
 
   def profile
-     "Curated By " + link_to("kyuden", "https://twitter.com/Kyuden_")
+     "Created By " + link_to("kyuden", "https://twitter.com/Kyuden_")
   end
 end
