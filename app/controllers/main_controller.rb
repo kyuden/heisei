@@ -3,6 +3,10 @@ class MainController < ApplicationController
     @eras = eras
   end
 
+  def master_tool
+    render "google97c58b10d6df3a94", layout: false
+  end
+
   private
     def eras
       (1989..Time.now.year).map do |year|
