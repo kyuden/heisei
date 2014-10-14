@@ -5,6 +5,9 @@
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
     = csrf_meta_tags
+    :javascript
+      var nend_params = {"media":20017,"site":100239,"spot":248986,"type":2,"oriented":1};
+    %script{:src => "http://js1.nend.net/js/nendAdLoader.js", :type => "text/javascript"}
   %body
     %span#forkongithub
       %a{:href => "http://xn--vqq618aea808a.jp/"}= "#{Time.now.year} 年版"
