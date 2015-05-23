@@ -15,3 +15,4 @@
 //= require bootstrap
 //= require bookmark_bubble
 //= require example
+//= require elevator

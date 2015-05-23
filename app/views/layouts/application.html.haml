@@ -7,6 +7,13 @@
     = csrf_meta_tags
     :javascript
       var nend_params = {"media":20017,"site":100239,"spot":248986,"type":2,"oriented":1};
+    :javascript
+      window.onload = function() {
+        var elevator = new Elevator({
+        element: document.querySelector('.elevator-button'),
+        duration: 1000
+        });
+      };
     %script{:src => "http://js1.nend.net/js/nendAdLoader.js", :type => "text/javascript"}
   %body
     %span#forkongithub
