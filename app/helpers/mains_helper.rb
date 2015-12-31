@@ -1,6 +1,6 @@
 module MainsHelper
   def current_heisei_year
-    Date.today.to_era("%O %E 年")
+    Time.zone.now.to_era("%O %E 年")
   end
 
   def profile
