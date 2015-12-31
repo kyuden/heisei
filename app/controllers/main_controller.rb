@@ -9,7 +9,7 @@ class MainController < ApplicationController
 
   private
     def eras
-      (1989..Time.now.year).map do |year|
+      (1989..Time.zone.now.year).map do |year|
          if year == 1989
           {christian_year: year, year: "01"}
          else
